@@ -14,11 +14,14 @@ body {
     background-image: url(/assets/images/fundo.jpg);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
 }
 h1{
     padding: 20px;
     color: white;
+}
+img{
+    height: 100px;
 }
 .entrada{
     background-color: rgb(31, 29, 42);
@@ -68,4 +71,16 @@ input:invalid{
 }
 .entrega input:hover{
     cursor: pointer;
+}
+p{
+    color: white;
+}
+@media (max-width: 576px) {
+    .entrada{
+        height: 300px;
+        width: 200px;
+    }
+    .entrada input{
+        width: 180px;
+    }
 }
