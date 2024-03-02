@@ -7,27 +7,31 @@
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
-    <h1>Cadastro</h1>
-    <img src="assets/images/perfil.png" alt="perfil">
-    <div>
-        <form action="" method="get" novalidate>
-            <div class="entrada">
-                <input type="text" id="login" name="login" autocomplete="username" placeholder="Login" required minlength="5">
-                <span class="error" aria-live="polite"></span>
-                <input type="email" name="email" id="email" autocomplete="email" placeholder="E-mail" required>
-                <span class="error" aria-live="polite"></span>
-                <input type="password" id="senha" name="senha" placeholder="Senha" required minlength="8">
-                <span class="error" aria-live="polite"></span>
-                <input type="password" id="confisenha" name="canfisenha" placeholder="Confirmar senha" required minlength="8">
-                <span class="error" aria-live="polite"></span>
-
-                <input type="button" value="Esqueceu a senha?" id="botao">
-                <P></P>
-            </div>
-            <div class="entrega">
-                <input type="submit" value="Entrar">
-            </div>
-        </form>
+    <div id="tela">
+        <h1>Cadastro</h1>
+        <img src="assets/images/cosmosPerfil.png" alt="Perfil">
+        <div>
+            <form action="" method="get" novalidate>
+                <div class="entrada">
+                    <input type="text" id="login" name="login" autocomplete="username" placeholder="Login" required minlength="5">
+                    <span class="erro" aria-live="polite"></span>
+                    <input type="email" id="email" name="email" placeholder="E-mail" required>
+                    <span class="erro" aria-live="polite"></span>
+                    <input type="password" id="senha" name="senha" placeholder="Senha" required minlength="8">
+                    <span class="erro" aria-live="polite"></span>
+                    <input type="password" id="confirmSenha" name="confirmSenha" placeholder="Confirme a senha" required>
+                    <span class="erro" aria-live="polite"></span>
+                    <input type="button" value="Esqueceu a senha?" id="botao">
+                    <P></P>
+                </div>
+                <div class="entrega">
+                    <input type="submit" value="Entrar" >
+                </div>
+            </form>
+        </div>
+        <footer>
+            <a href="https://github.com/KahMath" target="_blank">Karolina Mathias - GitHub</a>
+        </footer>
     </div>
     <script src="/assets/js/script.js"></script>
 </body>
